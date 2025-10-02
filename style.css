@@ -1,0 +1,83 @@
+/* Загальні стилі */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: #f4d797; /* фон як у референсі */
+  font-family: "Arial", sans-serif;
+}
+
+/* Картка */
+.card {
+  max-width: 340px;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 6px 6px 0 #000; /* чорна тінь */
+}
+
+/* Зображення */
+.card__image {
+  width: 100%;
+  display: block;
+}
+
+/* Контент */
+.card__content {
+  padding: 20px;
+  display: grid;
+  gap: 12px;
+}
+
+/* Категорія */
+.card__tag {
+  display: inline-block;
+  background: #facc15; /* жовтий */
+  color: #000;
+  font-weight: bold;
+  font-size: 0.75rem;
+  padding: 4px 10px;
+  border-radius: 6px;
+}
+
+/* Дата */
+.card__date {
+  font-size: 0.8rem;
+  color: #555;
+}
+
+/* Заголовок */
+.card__title {
+  font-size: 1.2rem;
+  margin: 0;
+  font-weight: 700;
+}
+
+/* Текст */
+.card__text {
+  font-size: 0.9rem;
+  color: #444;
+  line-height: 1.4;
+  margin: 0;
+}
+
+/* Автор */
+.card__author {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.card__author-img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+
+.card__author-name {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
